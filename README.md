@@ -1,5 +1,5 @@
-# Project 1 Daniel Litt
-This project is inspired by Angry Birds and will implement many of its mechanics.
+# Project 2 Daniel Litt
+Platforming game
 A live version of this project can be found <a href="https://bsu-cs315.github.io/Project_2/">here</a>
 
 ### How to play
