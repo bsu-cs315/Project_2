@@ -1,0 +1,13 @@
+[gd_scene format=2]
+
+[node name="Main" type="Node2D"]
+
+[node name="Label" type="Label" parent="."]
+margin_left = 444.77
+margin_top = 226.274
+margin_right = 484.77
+margin_bottom = 240.274
+text = "Hello"
+__meta__ = {
+"_edit_use_anchors_": false
+}
