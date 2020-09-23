@@ -1,5 +1,5 @@
 # Project 2 Daniel Litt
-A platforming game live version of this project can be found <a href="https://bsu-cs315.github.io/Project_2/">here</a>
+A platforming game, live version of this project can be found <a href="https://bsu-cs315.github.io/Project_2/">here</a>
 
 ### How to play
 
@@ -33,3 +33,7 @@ A platforming game live version of this project can be found <a href="https://bs
 Menu font is "Press Start 2P" Copyright &copy; 2012 CodeMan38
 <cody@zone38.net>, with Reserved Font Name "Press Start 2P", SIL open font license
 version 1.1. Details are in `Godot_project/assets/fonts/OLF.txt`.
+
+Tiles and characters are from "Abstract Platformer". Created in 2020 by kenney.nl,
+[CC0 1.0 Universal](http://creativecommons.org/publicdomain/zero/1.0/). Source:
+https://www.kenney.nl/assets/abstract-platformer
