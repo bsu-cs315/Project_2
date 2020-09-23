@@ -1,6 +1,5 @@
 # Project 2 Daniel Litt
-Platforming game
-A live version of this project can be found <a href="https://bsu-cs315.github.io/Project_2/">here</a>
+A platforming game live version of this project can be found <a href="https://bsu-cs315.github.io/Project_2/">here</a>
 
 ### How to play
 
