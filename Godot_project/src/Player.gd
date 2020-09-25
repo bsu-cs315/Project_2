@@ -17,8 +17,10 @@ func _get_input():
 		direction -= 1
 	if direction != 0:
 		_velocity.x = lerp(_velocity.x, direction * speed, acceleration)
+		$AnimatedSprite.play("walk")
 	else:
 		_velocity.x = lerp(_velocity.x, 0, friction)
+		$AnimatedSprite.play("default")
 
 
 func _physics_process(delta):
