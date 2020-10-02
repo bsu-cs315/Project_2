@@ -7,6 +7,7 @@ export (float, 0, 1.0) var friction = 0.1
 export (float, 0, 1.0) var acceleration = 0.25
 
 var _velocity = Vector2.ZERO
+var _can_jump = false
 
 
 func _get_input():
@@ -25,9 +26,18 @@ func _get_input():
 
 
 func _physics_process(delta):
+	if is_on_floor():
+		_can_jump = true
+	else:
+		_coyote_time()
+	
 	_get_input()
 	_velocity.y += gravity * delta
 	_velocity = move_and_slide(_velocity, Vector2.UP)
 	if Input.is_action_just_pressed("ui_up"):
-		if is_on_floor():
+		if _can_jump:
 			_velocity.y = jump_speed
+
+func _coyote_time():
+	yield(get_tree().create_timer(.1), "timeout")
+	_can_jump = false
