@@ -38,6 +38,7 @@ func _physics_process(delta):
 		if _can_jump:
 			_velocity.y = jump_speed
 
+#Adds a delay to allow extra jump time after a player walks off of a ledge
 func _coyote_time():
 	yield(get_tree().create_timer(.1), "timeout")
 	_can_jump = false
