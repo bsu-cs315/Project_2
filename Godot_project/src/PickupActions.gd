@@ -16,5 +16,6 @@ func _update_pickup_label():
 func _on_pickup_collected():
 	_collected_pickups+=1
 	_update_pickup_label()
+	$PickupSound.play()
 	if(_collected_pickups >= _max_pickups):
 		get_tree().change_scene("res://src/MainMenu.tscn")

@@ -1,8 +1,9 @@
-[gd_scene load_steps=5 format=2]
+[gd_scene load_steps=6 format=2]
 
 [ext_resource path="res://assets/fonts/Press_Start_2P/PressStart2P-Regular.ttf" type="DynamicFontData" id=1]
-[ext_resource path="res://src/PickupDisplay.gd" type="Script" id=2]
+[ext_resource path="res://src/PickupActions.gd" type="Script" id=2]
 [ext_resource path="res://assets/abstract-platformer-370-assets/PNG/Items/blueGem.png" type="Texture" id=3]
+[ext_resource path="res://assets/sound/166184__drminky__retro-coin-collect.wav" type="AudioStream" id=4]
 
 [sub_resource type="DynamicFont" id=1]
 size = 50
@@ -26,3 +27,6 @@ __meta__ = {
 position = Vector2( 98.7042, 73.1362 )
 scale = Vector2( 2.45948, 2.45948 )
 texture = ExtResource( 3 )
+
+[node name="PickupSound" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 4 )
