@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/449640__cnupoc__main-theme.wav-dbd2e444002b7845fab77dc4d13b322a.sample"
+
+[deps]
+
+source_file="res://assets/sound/449640__cnupoc__main-theme.wav"
+dest_files=[ "res://.import/449640__cnupoc__main-theme.wav-dbd2e444002b7845fab77dc4d13b322a.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0
