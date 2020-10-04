@@ -1,0 +1,28 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://assets/fonts/Press_Start_2P/PressStart2P-Regular.ttf" type="DynamicFontData" id=1]
+[ext_resource path="res://src/PickupDisplay.gd" type="Script" id=2]
+[ext_resource path="res://assets/abstract-platformer-370-assets/PNG/Items/blueGem.png" type="Texture" id=3]
+
+[sub_resource type="DynamicFont" id=1]
+size = 50
+font_data = ExtResource( 1 )
+
+[node name="HUD" type="Node2D"]
+script = ExtResource( 2 )
+
+[node name="Label" type="Label" parent="."]
+margin_left = 159.0
+margin_top = 53.0
+margin_right = 457.0
+margin_bottom = 123.0
+custom_fonts/font = SubResource( 1 )
+text = "1/1"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Sprite" type="Sprite" parent="."]
+position = Vector2( 98.7042, 73.1362 )
+scale = Vector2( 2.45948, 2.45948 )
+texture = ExtResource( 3 )
