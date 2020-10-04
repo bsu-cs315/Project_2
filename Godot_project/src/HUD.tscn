@@ -13,10 +13,10 @@ font_data = ExtResource( 1 )
 script = ExtResource( 2 )
 
 [node name="Label" type="Label" parent="."]
-margin_left = 159.0
-margin_top = 53.0
-margin_right = 457.0
-margin_bottom = 123.0
+margin_left = 933.0
+margin_top = 509.0
+margin_right = 1231.0
+margin_bottom = 579.0
 custom_fonts/font = SubResource( 1 )
 text = "1/1"
 __meta__ = {
@@ -24,7 +24,7 @@ __meta__ = {
 }
 
 [node name="Sprite" type="Sprite" parent="."]
-position = Vector2( 98.7042, 73.1362 )
+position = Vector2( 872.704, 529.136 )
 scale = Vector2( 2.45948, 2.45948 )
 texture = ExtResource( 3 )
 

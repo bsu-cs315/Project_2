@@ -5,6 +5,8 @@ var _max_pickups := 0
 
 func _ready():
 	var pickups = get_tree().get_nodes_in_group("Pickups")
+	for pickup in pickups:
+		pickup.connect("_pickup_collected", self, "_on_pickup_collected")
 	_max_pickups = pickups.size()
 	_update_pickup_label()
 
